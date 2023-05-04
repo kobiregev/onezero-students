@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Digibank-Regular";
+  src: url("./assets//fonts/NarkissBlockDigibank-Regular.otf");
+}
+
+@font-face {
+  font-family: "Digibank-Medium";
+  src: url("./assets//fonts/NarkissBlockDigibank-Medium.otf");
+}
+@font-face {
+  font-family: "Digibank-Apparat-Book";
+  src: url("./assets//fonts/Apparat-Book-TRIAL.otf");
+}
+
+@layer base {
+  html {
+    font-family: Apparat-Book-TRIAL, system-ui, sans-serif;
+  }
+}
